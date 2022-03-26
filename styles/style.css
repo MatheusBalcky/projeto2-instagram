@@ -1,0 +1,103 @@
+@charset "UTF -8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+	box-sizing: border-box;
+	font-family: var(--main-font);
+}
+:root{
+	--main-font: 'Roboto', sans-serif;
+	--border-insta: 1px solid #dbdbdb;
+}
+
+/* config do topo do site */
+header{
+	width: 100%;
+	height: 54px;
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid #dbdbdb;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 20px;
+	width: 100%;
+	max-width: 1075px;
+}
+
+.logo-insta{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0px 10px;
+	
+}
+.logo-insta img:first-child{
+	width: 19.25px;
+	height: 20.25px;
+}
+.line{
+	height: 22px;
+	width: 1px;
+	background-color: #DBDBDB;
+}
+.logo-insta img:last-child{
+	width: 103px;
+}
+nav input{
+	width: 215px;
+	height: 28px;
+	text-align: center;
+	background-color: #FAFAFA;
+	border: var(--border-insta);
+	border-radius: 3px;
+}
+.right-icons{
+	display: flex;
+	width: 193px;
+	justify-content: space-around;
+}
+.right-icons img{
+	width: 22px;
+}
+/* config do topo do site */
+
+
+main{
+	display: flex;
+	justify-content: center;
+}
+main > section{
+	margin-top: 35px;
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid red;
+	width: 1021px;
+}
+.feed{
+	display: flex;
+	flex-direction: column;
+	width: 615px;
+}
+.storys{
+	width: 615px;
+	height: 118px;
+	margin-bottom: 25px;
+	border: var(--border-insta);
+	border-radius: 3px;
+}
+.posts div{
+	border: var(--border-insta);
+	border-radius: 3px;
+	width: 615px;
+	height: 750px;
+	margin-bottom: 60px;
+	
+}
+.aside{
+	margin-top: 23px;
+	background-color: red;
+	width: 375px;
+	height: 300px;
+}
