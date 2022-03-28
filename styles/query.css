@@ -24,7 +24,7 @@
         margin-top: 54px;
     }
     .stories{
-        width: 96vw;
+        width: 100vw;
         overflow: hidden;
         margin: 0;
         background-color: transparent;
@@ -35,5 +35,8 @@
     }
     .stories div, .background-img{
         background-color: transparent;
+    }
+    .nav-mobile{
+        display: flex;
     }
 }

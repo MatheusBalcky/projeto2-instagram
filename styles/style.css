@@ -105,6 +105,7 @@ main > section{
 	width: 1021px;
 	margin-left: 20px;
 	margin-right: 20px;
+	margin-bottom: 54px;
 }
 .feed{
 	display: flex;
@@ -348,4 +349,20 @@ main > section{
 	color: #c7c7c7;
 	line-height: 14px;
 	width: 330px;
+}
+
+.nav-mobile{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 22px;
+	width: 100%;
+	position: fixed;
+	bottom: -1px;
+	height: 54px;
+	display: none;
+	border-top: var(--border-insta);
+}
+.nav-mobile img{
+	cursor: pointer;
 }
