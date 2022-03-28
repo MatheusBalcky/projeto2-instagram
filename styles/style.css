@@ -164,7 +164,7 @@ main > section{
 .background-img{
 	width: 66px;
 	height: 66px;
-	background-image: url("/components/images/stories-background.png");
+	background-image: url("../components/images/stories-background.png");
 	background-size: cover;
 	display: flex;
 	justify-content: center;
