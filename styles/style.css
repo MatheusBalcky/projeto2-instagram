@@ -160,6 +160,12 @@ main > section{
 .stories > div h6{
 	font-size: 12px;
 	cursor: pointer;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 66px;
+	text-align: center;
+	padding: 2px 0;
 }
 .background-img{
 	width: 66px;
